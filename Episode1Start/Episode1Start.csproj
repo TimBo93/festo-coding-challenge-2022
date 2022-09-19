@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Episode1Puzzle1\Episode1Puzzle1.csproj" />
+    <ProjectReference Include="..\Episode1Puzzle2\Episode1Puzzle2.csproj" />
+    <ProjectReference Include="..\Episode1Puzzle3\Episode1Puzzle3.csproj" />
+  </ItemGroup>
+
+</Project>
